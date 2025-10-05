@@ -7,7 +7,7 @@ const userInput = document.getElementById('userInput');
 const statusBadge = document.getElementById('statusBadge');
 
 // TODO: Replace with your deployed Google Apps Script Web App URL
-const BOT_ENDPOINT = "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL";
+const BOT_ENDPOINT = "https://script.google.com/macros/s/AKfycbwnz_zLgKQJROWhQu0NSdfl74vjmxI57lZ6orAwtJa8P0uMe09zET9KxO2Vs1TtMts4SA/exec";
 
 // PWA install prompt
 window.addEventListener('beforeinstallprompt', (e) => {
