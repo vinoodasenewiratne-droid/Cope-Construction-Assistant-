@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cope Construction Assistant</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/cope-192.png">
+  <meta name="theme-color" content="#0d2a4a">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">C</div>
+      <div class="title">
+        <h1>Cope Construction Assistant</h1>
+        <p class="tag">PWA • Fiji • FNBC + AS/NZS aware</p>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="installBtn" class="btn">Install App</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="chat" class="chat">
+      <div id="messages" class="messages"></div>
+    </section>
+
+    <form id="chatForm" class="composer" autocomplete="off">
+      <input id="userInput" type="text" placeholder="Ask about concrete, blockwork, RFIs, safety..." required>
+      <button class="btn send" aria-label="Send">Send</button>
+    </form>
+
+    <section class="disclaimer">
+      <p><strong>Note:</strong> Guidance only — confirm with the project engineer/authority (FNBC/NFA/FRA). For multi‑storey or structural queries, provide project location in Fiji, building class, storeys, wind region, soil class, and structural system.</p>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <span id="statusBadge" class="status">• Offline-ready</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

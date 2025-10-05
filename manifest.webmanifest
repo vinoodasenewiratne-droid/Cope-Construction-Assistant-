@@ -1,0 +1,20 @@
+{
+  "name": "Cope Construction Assistant",
+  "short_name": "Cope Assistant",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d2a4a",
+  "icons": [
+    {
+      "src": "icons/cope-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/cope-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
