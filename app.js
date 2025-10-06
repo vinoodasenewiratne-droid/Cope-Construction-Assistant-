@@ -53,9 +53,11 @@ async function askBot(q){
   addMessage('Thinking…', 'bot');
   try{
     const res = await fetch(BOT_ENDPOINT, {
-      method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({ message: q })
+   const res = await fetch(BOT_ENDPOINT, {
+  method: 'POST',
+  body: JSON.stringify({ message: q })
+});
+
     });
     const data = await res.json();
     const last = messages.querySelector('.msg.bot:last-child');
